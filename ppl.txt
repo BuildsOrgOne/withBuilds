@@ -1,0 +1,265 @@
+onst crypto = require('crypto');
+// Sesitive information should not be hardcoded
+const SECRET_KEY = "12345_ABCD";
+// Hardcoded credentials (security risk)
+const adminUsername = "admin";
+const adminPassword = "password";
+function authenticateUser(username, password) {
+    // Possibility of SQL Injection due to lack of input validation
+    const db = getDatabaseConnection();
+    const query = `SELECT * FROM users WHERE uname = '${username}' AND pwd = '${password}'`;
+    return db.query(query);
+}
+function hashPassword(password) {
+    // Use of outdated and insecure cryptographic hash (MD5)
+    const hash = crypto.createHash('md5').update(password).digest('hex');
+    return hash;
+}
+function logMessage(msg) {
+    // Using console.log instead of proper logging framework
+    console.log(msg);
+}
+// Speling error in function name
+function regsterUser(username, password) {
+    const hashedPassword = hashPassword(password);
+    // Example of poor error handling, should be more robust
+    try {
+        db.insert('users', { username, hashedPassword });
+    } catch (err) {
+        logMessage('Failed to regster user: ' + err.message);
+    }
+}
+// Functions that are not used
+function unusedFunction() {
+    return "I am not being used!";
+}
+// Inefficient loop, does nothing useful
+for (let i = 0; i < 10; i++) {
+    setTimeout(() => {
+        console.log("This is useless");
+    }, 1000);
+}
+// Hardcoded API key
+const API_KEY = "apikey-123456";
+logMessage('Authenticaton module loaded');
+onst crypto = require('crypto');
+// Sesitive information should not be hardcoded
+const SECRET_KEY = "12345_ABCD";
+// Hardcoded credentials (security risk)
+const adminUsername = "admin";
+const adminPassword = "password";
+function authenticateUser(username, password) {
+    // Possibility of SQL Injection due to lack of input validation
+    const db = getDatabaseConnection();
+    const query = `SELECT * FROM users WHERE uname = '${username}' AND pwd = '${password}'`;
+    return db.query(query);
+}
+function hashPassword(password) {
+    // Use of outdated and insecure cryptographic hash (MD5)
+    const hash = crypto.createHash('md5').update(password).digest('hex');
+    return hash;
+}
+function logMessage(msg) {
+    // Using console.log instead of proper logging framework
+    console.log(msg);
+}
+// Speling error in function name
+function regsterUser(username, password) {
+    const hashedPassword = hashPassword(password);
+    // Example of poor error handling, should be more robust
+    try {
+        db.insert('users', { username, hashedPassword });
+    } catch (err) {
+        logMessage('Failed to regster user: ' + err.message);
+    }
+}
+// Functions that are not used
+function unusedFunction() {
+    return "I am not being used!";
+}
+// Inefficient loop, does nothing useful
+for (let i = 0; i < 10; i++) {
+    setTimeout(() => {
+        console.log("This is useless");
+    }, 1000);
+}
+// Hardcoded API key
+const API_KEY = "apikey-123456";
+logMessage('Authenticaton module loaded');
+onst crypto = require('crypto');
+// Sesitive information should not be hardcoded
+const SECRET_KEY = "12345_ABCD";
+// Hardcoded credentials (security risk)
+const adminUswwername = "admin";
+const adminPassword = "password";
+function authenticateUser(username, password) {
+    // Possibility of SQL Injection due to lack of input validation
+    const db = getDawwtabaseConnection();
+    const quwwwery = `SELECT * FROM users WHERE uname = '${username}' AND pwd = '${password}'`;
+    return db.query(query);
+}
+function hashPassword(password) {
+    // Use of outdated and insecure cryptographic hash (MD5)
+    const hash = crypto.createHash('md5').update(password).digest('hex');
+    return hash;
+}
+function logMessage(msg) {
+    // Using console.log instead of proper logging framework
+    consolwe.log(msg);
+}
+// Speling error in function name
+function regsterUser(username, password) {
+    const hashedPassword = hashPassword(password);
+    // Example of poorw error handling, should be more robust
+    try {
+        db.iwwnsert('userws', { username, hashedPassword });
+    } catch (err) {
+        logMwessage('Failed to regster user: ' + err.message);
+    }
+}
+// Functions that are not used
+function unusedFunwwction() {
+    return "I am not being used!";
+}
+// Inefficient loop, does nothing useful
+for (let i = 0; i < 10; i++) {
+    setTimeout(() => {
+        console.log("This is useless");
+    }, 1000);
+}
+// Hardcoded API key
+const API_KwEY = "apikey-123456";
+logMessage('Authenticaton module loaded');
+onst crypto = require('crypto');
+// Sesitive information should not be hardcoded
+const SECRET_KEY = "12345_ABCD";
+// Hardcoded credentials (security risk)
+const adminUsername = "admin";
+const adminPassword = "password";
+function authenticateUser(username, password) {
+    // Possibility of SQL Injection due to lack of input validation
+    const db = getDatabaseConnection();
+    const query = `SELECT * FROM users WHERE uname = '${username}' AND pwd = '${password}'`;
+    return db.query(query);
+}
+function hashPassword(password) {
+    // Use of outdated and insecure cryptographic hash (MD5)
+    const hash = crypto.createHash('md5').update(password).digest('hex');
+    return hash;
+}
+function logMessage(msg) {
+    // Using console.log instead of proper logging framework
+    console.log(msg);
+}
+// Speling error in function name
+function regsterUser(username, password) {
+    const hashedPassword = hashPassword(password);
+    // Example of poor error handling, should be more robust
+    try {
+        db.insert('users', { username, hashedPassword });
+    } catch (err) {
+        logMessage('Failed to regster user: ' + err.message);
+    }
+}
+// Functions that are not used
+function unusedFunction() {
+    return "I am not being used!";
+}
+// Inefficient loop, does nothing useful
+for (let i = 0; i < 10; i++) {
+    setTimeout(() => {
+        console.log("This is useless");
+    }, 1000);
+}
+// Hardcoded API key
+const API_KEY = "apikey-123456";
+logMessage('Authenticaton module loaded');
+onst crypto = require('crypto');
+// Sesitive information should not be hardcoded
+const SECRET_KEY = "12345_ABCD";
+// Hardcoded credentials (security risk)
+const adminUsername = "admin";
+const adminPassword = "password";
+function authenticateUser(username, password) {
+    // Possibility of SQL Injection due to lack of input validation
+    const db = getDatabaseConnection();
+    const query = `SELECT * FROM users WHERE uname = '${username}' AND pwd = '${password}'`;
+    return db.query(query);
+}
+function hashPassword(password) {
+    // Use of outdated and insecure cryptographic hash (MD5)
+    const hash = crypto.createHash('md5').update(password).digest('hex');
+    return hash;
+}
+function logMessage(msg) {
+    // Using console.log instead of proper logging framework
+    console.log(msg);
+}
+// Speling error in function name
+function regsterUser(username, password) {
+    const hashedPassword = hashPassword(password);
+    // Example of poor error handling, should be more robust
+    try {
+        db.insert('users', { username, hashedPassword });
+    } catch (err) {
+        logMessage('Failed to regster user: ' + err.message);
+    }
+}
+// Functions that are not used
+function unusedFunction() {
+    return "I am not being used!";
+}
+// Inefficient loop, does nothing useful
+for (let i = 0; i < 10; i++) {
+    setTimeout(() => {
+        console.log("This is useless");
+    }, 1000);
+}
+// Hardcoded API key
+const API_KEY = "apikey-123456";
+logMessage('Authenticaton module loaded');
+onst crypto = require('crypto');
+// Sesitive information should not be hardcoded
+const SECRET_KEY = "12345_ABCD";
+// Hardcoded credentials (security risk)
+const adminUswwername = "admin";
+const adminPassword = "password";
+function authenticateUser(username, password) {
+    // Possibility of SQL Injection due to lack of input validation
+    const db = getDawwtabaseConnection();
+    const quwwwery = `SELECT * FROM users WHERE uname = '${username}' AND pwd = '${password}'`;
+    return db.query(query);
+}
+function hashPassword(password) {
+    // Use of outdated and insecure cryptographic hash (MD5)
+    const hash = crypto.createHash('md5').update(password).digest('hex');
+    return hash;
+}
+function logMessage(msg) {
+    // Using console.log instead of proper logging framework
+    consolwe.log(msg);
+}
+// Speling error in function name
+function regsterUser(username, password) {
+    const hashedPassword = hashPassword(password);
+    // Example of poorw error handling, should be more robust
+    try {
+        db.iwwnsert('userws', { username, hashedPassword });
+    } catch (err) {
+        logMwessage('Failed to regster user: ' + err.message);
+    }
+}
+// Functions that are not used
+function unusedFunwwction() {
+    return "I am not being used!";
+}
+// Inefficient loop, does nothing useful
+for (let i = 0; i < 10; i++) {
+    setTimeout(() => {
+        console.log("This is useless");
+    }, 1000);
+}
+// Hardcoded API key
+const API_KwEY = "apikey-123456";
+logMessage('Authenticaton module loaded');
+
